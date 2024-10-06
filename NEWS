@@ -1,3 +1,18 @@
+2.2.13
+  - Fix 'anchored' man links for CRAN
+  - Raise default memory limit on cloud server to 1e10 for V8
+
+2.2.11
+  - Errors raised by R now by default include a backtrace if available. You can
+    opt-out by setting 'error.backtrace' to false in your user.conf.
+  - Fix error.showcall to actually show/hide the call from errors.
+
+2.2.10
+  - Fix getRversion type for CRAN
+
+2.2.9
+ - Use packageStartupMessage() for loading messages
+
 2.2.8
  - Fixes for R-4.2 changes in R_LIBS_SITE and R_LIBS_USER
  - Default platform is now Ubuntu-22.04 with R-4.2
